@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ZDNet Korea 토큰증권 점검 3부작 핵심 요약">
+  <title>토큰증권 제도 설계 점검 | 금융 일일 브리핑</title>
+  <style>
+    :root { --paper:#f5f2eb; --card:#fffdf8; --ink:#182127; --muted:#677078; --line:#d6d0c5; --green:#0c625d; --orange:#b04a28; --dark:#172126; --max:960px; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif; line-height:1.72; }
+    a { color:var(--green); text-decoration-thickness:1px; text-underline-offset:3px; }
+    .wrap { width:min(calc(100% - 32px),var(--max)); margin:auto; }
+    header { padding:42px 0 34px; border-bottom:1px solid var(--line); }
+    .back { display:inline-block; margin-bottom:28px; font-size:.88rem; }
+    .kicker { margin:0 0 10px; color:var(--green); letter-spacing:.12em; font-size:.76rem; font-weight:800; }
+    h1 { margin:0; font-family:Georgia,"Noto Serif KR",serif; font-size:clamp(2.05rem,6vw,3.7rem); letter-spacing:-.065em; line-height:1.12; max-width:15ch; }
+    .deck { max-width:730px; margin:17px 0 0; color:var(--muted); font-size:1.08rem; }
+    .meta { display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:22px; color:var(--muted); font-size:.84rem; }
+    main { padding:35px 0 58px; }
+    .takeaway { margin-bottom:30px; padding:24px 25px; border:1px solid var(--line); border-top:4px solid var(--green); background:var(--card); }
+    .takeaway h2 { margin:0 0 10px; font-size:1.1rem; }
+    .takeaway p { margin:0; font-size:1.02rem; }
+    .section { padding:31px 0; border-top:1px solid var(--line); }
+    .label { color:var(--orange); font-family:Georgia,serif; font-size:1rem; font-weight:700; }
+    h2 { margin:4px 0 12px; letter-spacing:-.035em; font-size:1.45rem; line-height:1.35; }
+    p { margin:0 0 13px; }
+    .source { margin:15px 0 0; color:var(--muted); font-size:.87rem; }
+    .source a { word-break:break-word; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:25px 0 0; }
+    .point { padding:19px 18px; background:var(--card); border:1px solid var(--line); }
+    .point b { display:block; margin-bottom:7px; color:var(--green); font-size:.9rem; }
+    .point p { margin:0; font-size:.91rem; }
+    .questions { margin-top:28px; padding:26px; background:var(--dark); color:#f6f4ee; }
+    .questions h2 { margin:0 0 12px; color:#fff; }
+    .questions ol { margin:0; padding-left:1.25rem; }
+    .questions li+li { margin-top:8px; }
+    footer { border-top:1px solid var(--line); padding:30px 0 45px; color:var(--muted); font-size:.88rem; }
+    footer ul { margin:10px 0 0; padding-left:1.2rem; }
+    footer li+li { margin-top:7px; }
+    @media(max-width:700px) { .grid { grid-template-columns:1fr; } header { padding-top:30px; } .takeaway,.questions { padding:20px; } }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="back" href="./">← 금융 일일 브리핑</a>
+    <p class="kicker">ARTICLE SYNTHESIS · TOKEN SECURITIES</p>
+    <h1>토큰증권, 제도 문은 열렸지만 설계 과제는 남음</h1>
+    <p class="deck">제공된 ZDNet Korea 3부작은 초기 상품 범위, 분산원장 상호운용성, 운영 거버넌스를 각각 짚으며 국내 토큰증권 제도의 시장성·기술성·책임구조를 함께 점검함.</p>
+    <div class="meta"><span>기준 기사: 2026.09.08–10</span><span>출처: ZDNet Korea</span><span>요약 작성: 2026.09.10</span></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="takeaway">
+    <h2>한줄 결론</h2>
+    <p>초기 제도는 투자자 보호와 총량 관리를 우선한 설계로 보임. 다만 시장이 실제로 거래할 상품의 범위, 원장 간 연결 방식, 전자등록기관과 사업자 사이의 승인·책임 경계가 구체화되지 않으면 토큰증권의 유동성·확장성·운영 효율이 제한될 수 있다는 것이 세 기사에 공통적으로 제기된 쟁점임.[1][2][3]</p>
+  </section>
+
+  <section class="section">
+    <div class="label">01 · 시장성</div>
+    <h2>초기 허용 상품만으로 수요를 만들 수 있는가</h2>
+    <p>첫 번째 기사는 초기 제도에서 기관투자자 전용 사모 MMF·사모사채와 비상장주식 신탁상품 중심의 토큰화가 제시된 점을 다룸. 증권업계 관계자들은 수요가 큰 투자계약증권이나 다양한 비금전신탁수익증권의 허용 시점이 불명확하다는 문제를 제기함.[1]</p>
+    <p>핵심은 ‘기술적으로 발행 가능한가’보다 ‘투자자와 발행사가 실제로 선택할 상품이 있는가’임. 초기 대상 상품의 수요와 유통 유인이 낮으면, 제도 시행 후에도 거래 규모가 제한될 수 있다는 관점임.[1]</p>
+    <p class="source">참고 기사: <a href="https://n.news.naver.com/article/092/0002436637" target="_blank" rel="noopener">[1] n.news.naver.com/.../0002436637</a></p>
+  </section>
+
+  <section class="section">
+    <div class="label">02 · 기술 구조</div>
+    <h2>프라이빗체인과 ‘한 종목·한 원장’이 남긴 상호운용성 과제</h2>
+    <p>두 번째 기사는 표준요건이 허가받은 기관 중심의 분산원장 참여, 한 토큰증권의 단일 원장 발행·유통 및 원장 간 이전 제한을 전제로 한다는 업계 비판을 소개함.[2]</p>
+    <p>기사에서 제기된 우려는 두 가지임. 원장별로 시장과 유동성이 나뉠 수 있다는 점, 그리고 향후 퍼블릭체인 또는 다른 분산원장과의 연계를 허용할 경우 초기 시스템을 다시 손봐야 할 수 있다는 점임. 이는 기사 속 업계·전문가 견해이며, 실제 비용과 제도 적용 범위는 후속 세부기준에 따라 달라질 수 있음.[2]</p>
+    <p class="source">참고 기사: <a href="https://n.news.naver.com/article/092/0002436790" target="_blank" rel="noopener">[2] n.news.naver.com/.../0002436790</a></p>
+  </section>
+
+  <section class="section">
+    <div class="label">03 · 거버넌스</div>
+    <h2>총량관리 노드와 스마트컨트랙트 승인, 병목·책임 경계가 쟁점</h2>
+    <p>세 번째 기사는 한국예탁결제원이 모든 분산원장에 총량관리 노드로 참여하고, 스마트컨트랙트 변경 시 전자등록기관의 사전 승인을 받도록 한 요건을 다룸.[3]</p>
+    <p>이 구조는 총량과 권리관계 관리에는 기여할 수 있으나, 기사에 인용된 업계·전문가들은 원장과 상품 수가 늘 때 개발·검증 승인 속도가 병목이 될 수 있고, 보안 패치·기능개선까지 승인 범위에 포함되는지와 사고 발생 시 책임이 누구에게 귀속되는지가 명확해야 한다고 지적함.[3]</p>
+    <p class="source">참고 기사: <a href="https://n.news.naver.com/article/092/0002436932" target="_blank" rel="noopener">[3] n.news.naver.com/.../0002436932</a></p>
+  </section>
+
+  <section class="section">
+    <div class="label">SYNTHESIS</div>
+    <h2>세 기사가 함께 보여주는 3가지 트레이드오프</h2>
+    <div class="grid">
+      <div class="point"><b>보호 ↔ 시장성</b><p>초기 상품 범위를 보수적으로 잡을수록 투자자 보호와 관리 범위는 명확해질 수 있으나, 시장 참여 유인은 약해질 수 있음.[1]</p></div>
+      <div class="point"><b>통제 ↔ 상호운용성</b><p>원장과 참여자를 제한하면 통제는 쉬워질 수 있으나, 유동성 분절과 후속 연결 비용이 과제가 될 수 있음.[2]</p></div>
+      <div class="point"><b>감독 ↔ 운영 민첩성</b><p>사전 승인과 중앙 노드 참여는 관리 수단이 될 수 있으나, 변경·장애 대응 속도와 책임 분담 기준이 중요해짐.[3]</p></div>
+    </div>
+  </section>
+
+  <section class="questions">
+    <h2>향후 확인할 질문</h2>
+    <ol>
+      <li>초기 대상 이후 투자계약증권·비금전신탁수익증권 등의 허용 로드맵과 투자자 보호 장치는 어떻게 제시될 것인가.[1]</li>
+      <li>‘한 종목·한 원장’의 종목 범위와 원장 간 이전·연계의 허용 조건은 어디까지인가.[2]</li>
+      <li>스마트컨트랙트 변경 중 사전 승인 대상, 긴급 보안패치 예외, 전자등록기관과 사업자 사이의 사고 책임 기준은 어떻게 정해질 것인가.[3]</li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>Sources</strong>
+    <ul>
+      <li>[1] ZDNet Korea, 「[토큰증권 점검①] '디지털 혁신' 문 열렸지만…"팔 게 없다"」, 2026-09-08 — <a href="https://n.news.naver.com/article/092/0002436637" target="_blank" rel="noopener">n.news.naver.com/article/092/0002436637</a></li>
+      <li>[2] ZDNet Korea, 「[토큰증권 점검②] 글로벌은 연결하는데 韓은 막혀…프라이빗체인 채택 논란」, 2026-09-09 — <a href="https://n.news.naver.com/article/092/0002436790" target="_blank" rel="noopener">n.news.naver.com/article/092/0002436790</a></li>
+      <li>[3] ZDNet Korea, 「[토큰증권 점검③] 이름만 ‘분산원장’…권한 중앙화에 블록체인 취지 무색」, 2026-09-10 — <a href="https://n.news.naver.com/article/092/0002436932" target="_blank" rel="noopener">n.news.naver.com/article/092/0002436932</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
